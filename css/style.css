@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+header .container{
+    height: 100px;
+}
+
+.row{
+    height: 100%;
+}
+
+.riq-col{
+    height: 50px;
+    background-color: red;
+}
+
+/* MAIN */
+main .bg-success, .bg-body{
+    height: 500px;
+}
