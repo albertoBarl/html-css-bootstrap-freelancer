@@ -4,21 +4,36 @@
     box-sizing: border-box;
 }
 
-/* HEADER */
-header .container{
-    height: 100px;
+.container{
+    height: 100%;
 }
 
-.row{
-    height: 100%;
+/* HEADER */
+.bg-dark{
+    height: 100px;
 }
 
 .riq-col{
     height: 50px;
+    width: 100%;
     background-color: red;
 }
 
 /* MAIN */
-main .bg-success, .bg-body{
+.bg-success, .bg-body{
     height: 500px;
+}
+
+/* main 1 */
+.prova-main-1{
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+}
+
+/* main 2 */
+.prova-main-2{
+    height: 200px;
+    width: 100%;
+    background-color: blue;
 }
