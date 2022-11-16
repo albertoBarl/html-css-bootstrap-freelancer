@@ -21,7 +21,7 @@ header{
 
 .riq-col-plus{
     height: 50px;
-    width: calc(100% / 3);
+    width: calc(90% / 3);
     background-color: orange;
 }
 
