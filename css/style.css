@@ -9,7 +9,7 @@
 }
 
 /* HEADER */
-.bg-dark{
+header{
     height: 100px;
 }
 
@@ -19,20 +19,15 @@
     background-color: red;
 }
 
-/* MAIN */
-.bg-success, .bg-body{
-    height: 500px;
+.riq-col-plus{
+    height: 50px;
+    width: calc(100% / 3);
+    background-color: orange;
 }
 
-/* main 1 */
-.prova-main-1{
-    height: 200px;
-    width: 100%;
-    background-color: blue;
-}
 
-/* main 2 */
-.prova-main-2{
+/* ======= MAIN ===== */
+.prova-main{
     height: 200px;
     width: 100%;
     background-color: blue;
