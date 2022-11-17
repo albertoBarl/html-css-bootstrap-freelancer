@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.grey{
+    color: grey;
+}
+
 .container{
     height: 100%;
 }
@@ -21,27 +25,14 @@ header{
 
 .riq-col-plus{
     height: 50px;
-    width: calc(90% / 3);
+    width: calc(93% / 3);
     background-color: orange;
 }
 
 
 /* ======= MAIN ===== */
-.prova-main{
+.prova{
     height: 200px;
     width: 100%;
-    background-color: blue;
-    margin-bottom: 20px;
-}
-
-.main-2 .prova-main:not(.prova-main:first-child){
-    height: 200px;
-    width: 45%;
-    background-color: blue;
-}
-
-.footer-1 .prova-main{
-    height: 200px;
-    width: 30%;
     background-color: blue;
 }
