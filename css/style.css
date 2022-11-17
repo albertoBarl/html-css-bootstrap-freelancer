@@ -12,8 +12,12 @@
     background-color: #1abc9c;
 }
 
+.marg-0auto{
+    margin: 0 auto;
+}
+
 .container{
-    height: 100%;
+    height: auto;
 }
 
 /* HEADER */
@@ -32,4 +36,8 @@ header .container{
     width: 100%;
     height: auto;
     border-radius: 25px;
+}
+
+.star{
+    font-size: 50px;
 }

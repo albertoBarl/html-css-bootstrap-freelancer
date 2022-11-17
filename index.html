@@ -47,7 +47,7 @@
                         <div>
                             <img src="./img/avatar.svg" alt="IMG not available" class="mb-3">
                             <h1>START BOOTSTRAP</h1>
-                            <span>-----<i class="fa-solid fa-star"></i>-----</span>
+                            <span class="star">-----<i class="fa-solid fa-star"></i>-----</span>
                         </div>
                     </div>
                 </div>     
@@ -66,7 +66,7 @@
                     <div class="col-12 col-sm-12">
                         <div>
                             <h2>PORTFOLIO</h2>
-                            <span>-----<i class="fa-solid fa-star"></i>-----</span>
+                            <span class="star">-----<i class="fa-solid fa-star"></i>-----</span>
                         </div>
                     </div>
                 </div>     
@@ -112,26 +112,24 @@
                     <div class="col-12">
                         <div>
                             <h2>ABOUT</h2>
-                            <span>-----<i class="fa-solid fa-star"></i>-----</span>
+                            <span class="star">-----<i class="fa-solid fa-star"></i>-----</span>
                         </div>
                     </div>
                 </div>     
-                <div class="row pt-4 mb-5 g-3 align-items-center text-left text-white flex-column flex-sm-row">
-                    <div class="col-12 col-sm-6">
+                <div class="row my-5 text-white justify-content-center">
+                    <div class="col-9 d-flex flex-column flex-sm-row">
                         <div>
                             <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
                         </div>
-                    </div>
-                    <div class="col-12 col-sm-6">
                         <div>
                             <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                         </div>
-                    </div>
+                    </div>     
                 </div>    
                 <div class="row pt-4 pb-5 text-white text-center">
                     <div class="col-12">
                         <div>
-                            <button class="bg-body"><a href="">Download</a></button>
+                            <button class="bg-body p-3 bg-transparent rounded btn-outline-white"><a href="" class="text-white text-decoration-none"><i class="fa-solid fa-download pe-3"></i>Download</a></button>
                         </div>
                     </div>
                 </div>      
@@ -141,30 +139,24 @@
         <!-- main 4 -->
         <div class="bg-body">
             <div class="container">
-                <div class="row pt-4 mb-5 text-center">
-                    <div class="col-12">
+                <div class="row pt-4 mb-5 text-center justify-content-center">
+                    <div class="col-9">
                         <div>
                             <h2>CONTACT ME</h2>
-                            <span>-----<i class="fa-solid fa-star"></i>-----</span>
+                            <span class="star">-----<i class="fa-solid fa-star"></i>-----</span>
                         </div>
                     </div>
                 </div> 
-                <div class="row pt-4 mb-5 text-center">
-                    <div class="col-12">
+                <div class="row pt-4 mb-5 text-center justify-content-center">
+                    <div class="col-9">
                         <div>
                             <form class="d-flex flex-column">
-                                <input type="text" name="name" placeholder="Name">
-                                <input type="email" name="email" placeholder="Email Address">
-                                <input type="number" name="phone-number" id="phone-number" placeholder="Phone Number">
-                                <textarea name="message" placeholder="Message"></textarea>
+                                <input type="text" name="name" placeholder="Name" class="form-control-plaintext border-bottom">
+                                <input type="email" name="email" placeholder="Email Address" class="form-control-plaintext border-bottom">
+                                <input type="tel" name="phone-number" id="phone-number" placeholder="Phone Number" class="form-control-plaintext border-bottom">
+                                <textarea name="message" placeholder="Message" class="form-control-plaintext border-bottom"></textarea>
+                                <input type="submit" class="col-3 b1abc9c rounded p-2 text-white" name="submit" value="Send">
                             </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="row pt-4 mb-5">
-                    <div class="col-12">
-                        <div class="prova">
-
                         </div>
                     </div>
                 </div>
@@ -185,18 +177,21 @@
                     <div class="col-12 col-sm-4 text-center">
                         <div>
                             AROUND THE WEB
-                            <div>
-                                <i class="fa-brands fa-facebook-f"></i>
-                                <i class="fa-brands fa-google-plus-g"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-linkedin-in"></i>
+                            <div class="my-4">
+                                <a href="" class="border p-3 m-3 rounded-circle"><i class="fa-brands fa-facebook-f text-white"></i></a>
+                                <a href="" class="border p-3 m-3 rounded-circle"><i class="fa-brands fa-google-plus-g text-white"></i></a>
+                                <a href="" class="border p-3 m-3 rounded-circle"><i class="fa-brands fa-twitter text-white"></i></a>
+                                <a href="" class="border p-3 m-3 rounded-circle"><i class="fa-brands fa-linkedin-in text-white"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-4 text-center">
                         <div>
                             ABOUT FREELANCER <br>
-                            Freelance is a free to use, open source Bootstrap theme created by <a class="text-success">Start Bootstrap</a>.
+                            <span>
+                                Freelance is a free to use, open source Bootstrap theme created by <a href="" class="text-success text-decoration-none">Start Bootstrap</a>.
+                            
+                            </span>
                         </div>
                     </div>
                 </div>     
@@ -206,7 +201,7 @@
             <div class="container ">
                 <div class="row pt-5 pb-5">
                     <div class="col-12 text-center text-white">
-                        <div>Copyright Your Website 2019</div>
+                        <div>Copyright &#169; Your Website 2019</div>
                     </div>
                 </div>
             </div>
