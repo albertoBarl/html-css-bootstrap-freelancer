@@ -8,6 +8,10 @@
     color: grey;
 }
 
+.b1abc9c{
+    background-color: #1abc9c;
+}
+
 .container{
     height: 100%;
 }
@@ -15,18 +19,6 @@
 /* HEADER */
 header{
     height: 100px;
-}
-
-.riq-col{
-    height: 50px;
-    width: 100%;
-    background-color: red;
-}
-
-.riq-col-plus{
-    height: 50px;
-    width: calc(93% / 3);
-    background-color: orange;
 }
 
 
@@ -40,8 +32,4 @@ header{
     width: 100%;
     height: auto;
     border-radius: 25px;
-}
-
-.prova{
-    background-color: blue;
 }
