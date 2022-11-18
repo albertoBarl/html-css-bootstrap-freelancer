@@ -17,13 +17,22 @@
     height: auto;
 }
 
-.line::after, .line::before{
+.line-w::after, .line-w::before{
     content: '';
     height: 4px;
     width: 15%;
     display: inline-block;
     vertical-align: super;
-    background-color: red;
+    background-color: white;
+}
+
+.line-b::after, .line-b::before{
+    content: '';
+    height: 4px;
+    width: 15%;
+    display: inline-block;
+    vertical-align: super;
+    background-color: black;
 }
 
 /* HEADER */
