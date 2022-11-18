@@ -12,12 +12,18 @@
     background-color: #1abc9c;
 }
 
-.marg-0auto{
-    margin: 0 auto;
-}
 
 .container{
     height: auto;
+}
+
+.line::after, .line::before{
+    content: '';
+    height: 4px;
+    width: 15%;
+    display: inline-block;
+    vertical-align: super;
+    background-color: red;
 }
 
 /* HEADER */
